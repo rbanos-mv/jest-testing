@@ -1,0 +1,31 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "jest": {
+    "verbose": true,
+    "rootDir": "./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbanos-mv/jest-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbanos-mv/jest-testing/issues"
+  },
+  "homepage": "https://github.com/rbanos-mv/jest-testing#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
